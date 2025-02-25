@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const logger = require('morgan');
 const cors = require('cors');
-const petRouter = require('.controllers/pets.js')
+const petRouter = require('./controllers/pets.js')
 
 mongoose.connect(process.env.MONGODB_URI);
 
